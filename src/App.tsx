@@ -12,9 +12,9 @@ export default function App() {
   const [showHearts, setShowHearts] = useState(false);
 
   // CONFIGURACIÓN DE LA CARTA (Cambia esto para tu persona especial)
-  const recipient = "Mi Persona Especial"; 
-  const message = "Eres la razón de mis sonrisas y el sueño más bonito que se ha hecho realidad. Cada momento a tu lado es un tesoro que guardo en mi corazón. Te amo con toda mi alma.";
-  const signature = "Con todo mi amor";
+  const recipient = "Yennifer"; 
+  const message = "Nadie nos dijo que extrañar es el costo que tienen los buenos momentos.";
+  const signature = "Con todo mi cariño - 888 -";
 
   // Floating hearts effect
   useEffect(() => {
@@ -104,7 +104,7 @@ export default function App() {
                   <Heart className="text-rose-500 mb-4 animate-pulse" fill="currentColor" size={32} />
                   
                   <h2 className="font-romantic text-3xl text-rose-600 mb-4">
-                    Querido/a {recipient},
+                    Querida {recipient},
                   </h2>
                   
                   <p className="font-serif text-rose-800 leading-relaxed italic text-lg mb-6">

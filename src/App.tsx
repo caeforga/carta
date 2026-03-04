@@ -13,7 +13,7 @@ export default function App() {
 
   // CONFIGURACIÓN DE LA CARTA (Cambia esto para tu persona especial)
   const recipient = "Yennifer"; 
-  const message = "Nadie nos dijo que extrañar es el costo que tienen los buenos momentos.";
+  const message = "Un día seré feliz porque en lugar de levantarme y mirar el móvil podré mirarte a esos preciosos ojos que tienes";
   const signature = "Con todo mi cariño - 888 -";
 
   // Floating hearts effect
@@ -66,7 +66,7 @@ export default function App() {
           className="text-center mb-12"
         >
           <h1 className="font-romantic text-5xl text-rose-600 mb-2 drop-shadow-sm">
-            Una Sorpresa para Ti
+            Un Mensaje para Ti
           </h1>
           <p className="text-rose-400 font-medium italic">Toca el sobre para abrirlo</p>
         </motion.div>
